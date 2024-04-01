@@ -1,7 +1,6 @@
 configuração da conta local do GIT:
 git config --global user.name AnnaBeatrizSilva2904
-git config --global user.email annabeatryz2504@gmail.com
-
+git config --global user.name AnnaBeatrizSilva2904
 Criar um projeto React Native com Expo
 npx create-expo-app SilvinhaHealthApp
 
@@ -11,3 +10,9 @@ Executar o projeto:
 
 Restaurar um projeto apos clonar:
     npm i
+
+Para instalar o Expo Router:
+    npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Alterar no Package.json:
+    "main": "expo-router/entry",
